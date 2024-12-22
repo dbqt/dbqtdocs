@@ -8,8 +8,8 @@ const organizationName = "dbqt";
 const projectName = "dbqtdocs";
 
 const config: Config = {
-  title: 'Dbqt - Documentation',
-  tagline: 'Dinosaurs are cool',
+  title: 'Dbqt',
+  tagline: 'Just a time traveler chilling',
   favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
@@ -62,7 +62,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'Dbqt',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -92,16 +92,20 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Twitch',
+              href: 'https://twitch.tv/dbqt',
+            },
+            {
+              label: 'Youtube',
+              href: 'https://www.youtube.com/@dbqt',
             },
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discord.gg/kmdh6RQ',
             },
             {
               label: 'X',
-              href: 'https://x.com/docusaurus',
+              href: 'https://x.com/dbqt_',
             },
           ],
         },
@@ -110,12 +114,16 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/dbqt',
             },
+            {
+              label: 'Links',
+              href: 'https://linktr.ee/dbqt',
+            }
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Dbqt - Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
